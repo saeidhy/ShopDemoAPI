@@ -1,0 +1,99 @@
+/* General Navbar Styles */
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
+
+.categoryNav {
+  width: 100%;
+  background-color: transparent;
+}
+
+/* Logo Styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoBox {
+  background: linear-gradient(to bottom, #1d4ed8, #1e40af);
+  width: 5.6rem;
+  height: 2.5rem;
+  border-radius: 0.625rem;
+}
+
+.logoText {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.875rem;
+  color: #fbbf24;
+  margin-left: 0.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.125rem;
+}
+
+/* Category Links */
+.categoryLink {
+  color: #000;
+  text-decoration: none;
+}
+
+.menuCart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* Cart Icon */
+.cartCount {
+  background-color: #dc2626;
+  border-radius: 9999px;
+  width: 14px;
+  height: 14px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #f9fafb;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(50%) translateY(-50%);
+}
+
+/* Dropdown Menu Styles */
+.dropdownMenu {
+  position: absolute;
+  right: 0;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  width: 12rem;
+  background-color: #fff;
+  border-radius: 0.375rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.dropdownItem {
+  display: block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;
+  color: #374151;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+
+/* Utility Class for Ensuring Dropdown Is Above All Elements */
+.navbar {
+  position: relative;
+  z-index: 1000;
+}
